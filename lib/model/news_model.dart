@@ -3,6 +3,6 @@ class NewsModel{
 
   NewsModel({required this.news});
   factory NewsModel.fromjson(Map<String,dynamic>json){
-    return NewsModel(news: json['articled']);
+    return NewsModel(news: json['articles']);
   }
 }
